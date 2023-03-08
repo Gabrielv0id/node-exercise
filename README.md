@@ -299,7 +299,7 @@ Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362
       }
     ```
   
-  - O resultado retornado ao cadastrar um novo filme deverá ser um _status http_ `401` com o corpo da resposta sendo os dados do filme que foi cadastrado.
+  - O resultado retornado ao cadastrar um novo filme deverá ser um _status http_ `201` com o corpo da resposta sendo os dados do filme que foi cadastrado.
     
     ```json
     {
