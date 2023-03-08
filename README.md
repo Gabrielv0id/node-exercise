@@ -229,7 +229,7 @@ Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362
 
   > 👉 Para caso os dados enviados sejam inválidos
    - **[Será validado que não é possível listar um filme inexistente]**
-    - O resultado retornado para listar um filme inexistente deve seguir a seguinte estrutura _status http_ `400`: e
+    - O resultado retornado para listar um filme inexistente deve seguir a seguinte estrutura _status http_ `404`: e
 
       ```json
       {
