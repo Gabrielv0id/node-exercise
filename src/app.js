@@ -16,4 +16,10 @@ app.get('/movies/:id', async (req, res) => {
   return res.status(200).json(findMovie);
 });
 
+app.get('/movies', async (req, res) => {
+  const movies = await readJsonData('./src/movies.json');
+
+  return res.status(200).json(movies);
+});
+
 module.exports = app;
